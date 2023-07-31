@@ -1,5 +1,8 @@
 package LeftDeity.class01;
 
+/**
+ * 用递归方法找一个数组中的最大值
+ */
 public class Code08_GetMax {
 
 	public static int getMax(int[] arr) {
