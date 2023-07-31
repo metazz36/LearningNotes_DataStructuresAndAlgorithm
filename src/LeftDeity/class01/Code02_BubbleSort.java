@@ -17,6 +17,7 @@ public class Code02_BubbleSort {
 		}
 	}
 
+	// 切记：此方法要确保i ！= j ，对于冒泡排序的交换而言，不存在i == j的情况，所以不会报错，但对选择排序，可能出现 i == j（比如5，4，3，2，1），则会导致程序出现问题
 	public static void swap(int[] arr, int i, int j) {
 		arr[i] = arr[i] ^ arr[j];
 		arr[j] = arr[i] ^ arr[j];
