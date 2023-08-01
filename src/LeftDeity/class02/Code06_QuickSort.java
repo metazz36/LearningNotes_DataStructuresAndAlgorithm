@@ -1,7 +1,10 @@
 package LeftDeity.class02;
-
 import java.util.Arrays;
 
+
+/**
+ * 快速排序（分治算法）
+ */
 public class Code06_QuickSort {
 
 	public static void quickSort(int[] arr) {

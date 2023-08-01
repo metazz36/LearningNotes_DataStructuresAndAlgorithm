@@ -23,11 +23,11 @@ public class Code07_EvenTimesOddTimes {
 		}
 		int rightOne = eO & (~eO + 1);
 		for (int cur : arr) {
-			if ((cur & rightOne) != 0) {
+			if ((cur & rightOne) != 0) { // 在rightOne位上的二进制数为1的数
 				eOhasOne ^= cur;
 			}
 		}
-		System.out.println(eOhasOne + " " + (eO ^ eOhasOne));
+		System.out.println(eOhasOne + " " + (eO ^ eOhasOne)); // e0 = e1 ^ e2 ;e0 ^ e1 = e2
 	}
 
 	public static void main(String[] args) {
