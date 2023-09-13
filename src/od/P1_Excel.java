@@ -4,7 +4,7 @@ package od;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Excel {
+public class P1_Excel {
     public static void main(String[] args) {
         List<List<String>> lists = new ArrayList<>();
         for(int i = 0;i < 5 ;i++){
