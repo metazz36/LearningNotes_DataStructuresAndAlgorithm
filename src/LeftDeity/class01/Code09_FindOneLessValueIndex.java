@@ -1,5 +1,8 @@
 package LeftDeity.class01;
 
+/**
+ * 局部最小值问题
+ */
 public class Code09_FindOneLessValueIndex {
 
 	public static int getLessIndex(int[] arr) {
